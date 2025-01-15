@@ -46,5 +46,4 @@ router.get('/user/:id/performance', (req, res) => {
     return handleNoUserData(res, userData)
 })
 
-
 module.exports = router
